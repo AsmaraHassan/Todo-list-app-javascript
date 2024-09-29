@@ -61,6 +61,6 @@ body {
 }
 
 #taskInput:focus {
-    border-color: black;
+    border-color: #6de24a;
 }
 
