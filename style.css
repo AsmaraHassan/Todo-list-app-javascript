@@ -111,4 +111,17 @@ li:hover {
     text-decoration: line-through;
     color: grey;
 }
+/* Remove button styling */
+.remove-btn {
+    background-color: #ff6b6b;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+}
 
+.remove-btn:hover {
+    background-color: #d9534f;
+}
