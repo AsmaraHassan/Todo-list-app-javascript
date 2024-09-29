@@ -1,0 +1,32 @@
+/* Centering h3 and container */ 
+h3 {
+    font-family: Arial;
+    font-size: 50px;
+    text-align: center; /* Ensures text is centered */
+    animation: fadeIn 12s;
+    margin-bottom: 30px;
+    text-align: left;
+
+    position: absolute;
+    left: 0px; 
+    top: 50px; 
+  
+}
+body {
+    font-family: 'Arial', sans-serif;
+
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    flex-direction: column; /* Stack items vertically */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-image: url('./images/pexels-mariah-green-3624629-5423286.jpg'); /* Replace with your image path */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    background-attachment: fixed; /* Keeps the image fixed while scrolling */
+    background-color: transparent; /* Set to transparent or desired color */
+  
+}
